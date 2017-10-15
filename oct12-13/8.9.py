@@ -13,7 +13,7 @@ def reviter(x,y):
    while k > i:
     p[k]=x[i]
     k=k+1
-    print p
+    print p,x
   else:
    return "nop"
 a=raw_input("enter first word")
