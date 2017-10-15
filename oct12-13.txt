@@ -1,3 +1,4 @@
 i have solved some questions from chapter 8(strings)
 now iam moving to next chapter.
 programs link:
+https://github.com/sandeepkp07/updates/tree/master/oct12-13
