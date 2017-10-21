@@ -2,6 +2,4 @@ i was doing exercises in tuples.i felt little bit difficult.
 So i had taken more time for it.
 i will continue to do next questions as much faster as i could.
 
-i have a doubt in ex 12.2:
- iam unable to execute random funtioning.i had attached it in "program link:".
 "programs link":https://github.com/sandeepkp07/updates/tree/master/oct19-20
