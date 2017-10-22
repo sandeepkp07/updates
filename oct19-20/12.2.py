@@ -1,11 +1,11 @@
-import sys
+import random
 def random_word(x):
  t=[]
  for g in x:
-  t.append((len(g),g))
+  t.append((len(g),random.random(),g))
  t.sort(reverse=True)
  res = []
- for length,g in t:
+ for length, _'g in t:
   res.append(g)
  return res
 n=int(input("enter num of elements\t:"))
