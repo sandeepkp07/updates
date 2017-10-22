@@ -8,6 +8,6 @@ def dictsrch(x):
  for s in y:
   a[index]=s
   index=index+1
- print a
+ print a.keys()
 i=open('word.txt')
 dictsrch(i)
