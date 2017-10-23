@@ -14,8 +14,8 @@ def anagram(x):
  for v in d.values():
   if len(v) > 1:
    t.append((len(v), v))
-   t.sort()
- for x in t:
-  print x
+   t.sort(reverse=true)
+ for y,z in t:
+  print z
 a=open('anagram.txt')
 print anagram(a)
