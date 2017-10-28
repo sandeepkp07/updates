@@ -9,7 +9,6 @@ def walk(dir):
     names.append(path)
    else:
     names.extend(walk(path))
-  print names
   return names
  except:
   print "nop"

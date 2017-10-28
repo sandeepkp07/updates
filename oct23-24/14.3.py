@@ -26,8 +26,8 @@ def all_anagrams(filename):
             d[t].append(word)
     return d
 
-def store_anagrams(filename, d):
-    shelf = shelve.open(filename, 'c')
+def store_anagrams(f, d):
+    shelf = shelve.open(f, 'c')
 
     for word, word_list in d.iteritems():
         shelf[word] =  word_list
@@ -47,7 +47,7 @@ def read_anagrams(filename, word):
 
 
 
-def main(name, command='tore'):
+def main(name, command='r'):
     if command == 'store':
         ad = all_anagrams('anagram.txt')
         store_anagrams('anagrams.db', ad)
