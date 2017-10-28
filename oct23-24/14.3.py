@@ -26,8 +26,13 @@ def all_anagrams(filename):
             d[t].append(word)
     return d
 
+<<<<<<< HEAD
 def store_anagrams(f, d):
     shelf = shelve.open(f, 'c')
+=======
+def store_anagrams(filename, d):
+    shelf = shelve.open(b.txt, 'c')
+>>>>>>> 6cce2e8e81106a4ccbe850879e0955b88cbe07a5
 
     for word, word_list in d.iteritems():
         shelf[word] =  word_list
@@ -37,7 +42,7 @@ def store_anagrams(f, d):
 
 
 def read_anagrams(filename, word):
-    shelf = shelve.open(filename)
+    shelf = shelve.open(b.txt)
     sig = signature(word)
     try:
         return shelf[sig]

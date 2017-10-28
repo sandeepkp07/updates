@@ -7,4 +7,7 @@ def walk(updates):
   else:
    walk(path)
 walk('/home/sandeep/updates')
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6cce2e8e81106a4ccbe850879e0955b88cbe07a5
