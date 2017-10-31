@@ -1,0 +1,5 @@
+Sir,
+ I was trying to solve exercises in chapter "classes and methods".
+I got stucked in some questions and so it took more time.
+I will try to finish the remaining questions and the final chapter "inheritance" with in two days.
+#LINK:https://github.com/sandeepkp07/updates/tree/master/oct30-31
