@@ -27,6 +27,6 @@ class Complex:
 a=Complex(1,2)
 b=Complex(3,4)
 c=a.add(b)
-d=a.mul(b)
+d=a.multiply(b)
 print c
 print d
