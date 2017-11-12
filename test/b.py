@@ -5,11 +5,7 @@ class Complex:
   self.image=image
  
  def __str__(self):
-  c=a.add(b)
-  print '(%d,%d)' % (c.real,c.image) 
-  d=a.multiply(b)
-  return '(%d,%d)' % (d.real,d.image)
-
+  return str(self.real)+ '+i' + str(self.image)
 
  def add(self,other):
   real=self.real+other.real
@@ -30,4 +26,7 @@ class Complex:
 
 a=Complex(1,2)
 b=Complex(3,4)
-print a
+c=a.add(b)
+d=a.mul(b)
+print c
+print d
