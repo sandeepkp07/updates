@@ -16,8 +16,8 @@ class Complex:
 
 
  def multiply(self,other):
-  real=self.real*other.real
-  image=self.image*other.image
+  real=self.real*other.real - self.image*other.image
+  image=self.image*other.real + self.real*other.image
   d=Complex(real,image)
   return d
 
