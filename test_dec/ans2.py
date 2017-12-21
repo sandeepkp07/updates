@@ -1,6 +1,5 @@
 m=[]
 k=[]
-n=[]
 z=[]
 G={}
 f=open("q2.txt").readlines()
