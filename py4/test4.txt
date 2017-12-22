@@ -1,0 +1,94 @@
+1) The file "q1.txt" contains some numbers, one
+number per line. Each number can be written in 3 different
+ways: for example:
+
+"10" or 10 or '10'
+
+There may be multiple blank lines between two numbers.
+
+Write a Python script which will open this file and print the
+numbers read from the file to the screen sorted in ascending order.
+
+----------------------------------------------------------------
+
+2) The file "q2.txt" represents a polynomial. If you check this file,
+you will see:
+
+10, 5
+
+9, 2
+
+12, 6
+
+3, 5
+
+8, 4
+
+2, 6
+
+28, 3
+
+10, 0
+
+11, 1
+
+This file represents a polynomial, each line containg a coefficient and an
+exponent. For example, the line 10, 5 represents:
+
+10x^5 
+
+The whole file represents:
+
+10x^5 + 9x^2 + 12x^6 + 3x^5 + 8x^4 + 2x^6 + 28x^3 + 10 + 11x
+
+You can combine together terms having the same exponents and write down the
+polynomial like this:
+
+13x^5 + 9x^2 + 14x^6 + 8x^4 + 28x^3 + 10 + 11x  (we will call this the "reduced form" of the polynomial)
+
+If you write the terms in order of descending order of exponents:
+
+14x^6 + 13x^5 + 8x^4 + 28x^3 + 9x^2 + 11x + 10
+
+Your task is to write a Python program which will read the file "q2.txt" and print out
+the equivalent polynomial in reduced form with exponents in descending order.
+
+Your program should work with ANY polynomial, not just the one shown in q2.txt.
+
+---------------------------------------------------------------
+
+3) This is a modification to the above problem.
+
+
+You now have a class in your program:
+
+class Polynomial:
+    ...
+    ...
+
+All the code you write will now be part of the Polynomial class - DO NOT WRITE ANY
+CODE OUTSIDE OF THE CLASS, except what is described below.
+
+The ONLY code which you will write outside the class is:
+
+p1 = Polynomial("q2.txt") 
+
+print p1.exponents()
+# will print [6, 5, 4, 3, 2, 1, 0]
+
+print p1.coefficients()
+# will print [14, 13, 8, 28, 9, 11, 10]
+
+print p1
+# will print 14x^6 + 13x^5 + 8x^4 + 28x^3 + 9x^2 + 11x + 10
+
+Hint: The "__init__" function can read the file and create two fields as part of the 
+polynomial object - these fields are arrays and they hold the exponent and coefficient
+values.
+
+------
+
+PLEASE TRY TO UNDERSTAND THE PROBLEMS PROPERLY BEFORE SOLVING THEM.
+
+
+
