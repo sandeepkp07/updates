@@ -1,12 +1,12 @@
 class Polynomial:
- def __init__(self,coefficient=0,exponent=0):
+ def __init__(self,a,coefficient=0,exponent=0):
   k=[]
   z=[]
   A=[]
   b=[]
   B=[]
   m=[]
-  f=open('q2.txt').readlines()
+  f=a.readlines()
   for t in f:
    k.append(t.strip().split('\n'))
   for i in k:
@@ -17,7 +17,8 @@ class Polynomial:
   for v in z:
    v.split()
    (a,b) = v.split()
-   a = str(filter(str.isdigit,str(a)))
+   a = int(filter(str.isdigit,str(a)))
+   b=int(b)
    A.append(a)
    B.append(b)
   coefficient = A
