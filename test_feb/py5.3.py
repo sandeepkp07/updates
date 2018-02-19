@@ -7,7 +7,13 @@ for path in paths:
     if os.path.isfile(path):
         print path
     else:
+<<<<<<< HEAD
         subdir=os.walk(path)
         for t in subdir:
              for files in t:
                 print files
+=======
+        print path
+        for sub in os.walk(path):
+            print sub[0]
+>>>>>>> 5bb43aebc0ac3a9748c86384d6576c8626bc645d
