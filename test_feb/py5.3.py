@@ -8,5 +8,5 @@ for path in paths:
         print path
     else:
         print path
-        for sub in os.walk(path)
+        for sub in os.walk(path):
             print sub[0]
