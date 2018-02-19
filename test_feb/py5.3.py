@@ -7,7 +7,7 @@ for path in paths:
     if os.path.isfile(path):
         print path
     else:
-        r=os.walk(path)
-        for t in r:
-             for i in t:
-                print i
+        subdir=os.walk(path)
+        for t in subdir:
+             for files in t:
+                print files
