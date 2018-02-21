@@ -1,0 +1,8 @@
+Sir,
+ Sorry for the long delay in posting updates.
+Iam doing javascript basic tasks.
+As per you had sujjested,i had tried to learn chapter 2 nd 3 in eloquent javascript book.I had tried to do some basic tasks mentioned in that book
+link: https://github.com/sandeepkp07/updates/tree/master/javascript_basic
+It was very usefull.Now iam moving to task14.
+
+Thank you sir...
