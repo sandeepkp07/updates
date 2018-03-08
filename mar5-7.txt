@@ -1,0 +1,5 @@
+Sir,
+ I had just gone through django basics,and found a webpage and a blog in djangogirls material.
+Now iam doing deploying section in that tutorial.
+
+Thank you sir..
