@@ -1,0 +1,7 @@
+Sir,
+  I had created my first sample blog
+url: http://sandeepkp.pythonanywhere.com/
+
+I will try to complete the basic tutorials by the next day.
+
+Thank you sir.....
