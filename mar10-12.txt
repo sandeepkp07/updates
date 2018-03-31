@@ -1,5 +1,5 @@
 Sir,
- Iam had completed upto css introduction part.Now iam doing templates extending.It's feeling little bit tricky.I will do it in the next days.
+ I had completed upto css introduction part.Now iam doing templates extending.It's feeling little bit tricky.I will do it in the next days.
 
 link:https://github.com/sandeepkp07/my-first-blog
 
