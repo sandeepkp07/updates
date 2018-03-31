@@ -1,0 +1,8 @@
+Sir,
+   Sorry for the long delay in posting updates.
+Now i had completed upto django girls tutorial.
+Created a blog: http://sandeepkp.pythonanywhere.com/
+
+created by deploying it from my github loc:https://github.com/sandeepkp07/myblog
+
+thank you sir...
