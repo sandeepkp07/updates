@@ -1,0 +1,6 @@
+Sir,
+ I am trying to create leader board app.
+Iam little bit confused in forms.py,views.py,models.py etc.
+But now it is being solved.I had just refered to some youtube vedios of django tutorial.Its getting very helpfull.I will try to finish the task soon.
+
+thank you sir...
