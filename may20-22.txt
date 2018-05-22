@@ -1,0 +1,13 @@
+Sir,
+ I had created a simple twitter interacting python program,2 days before.
+
+Now,since last 2 days i had tried to edit my python program to get an updated API as per you had suggested.
+
+I had tried it by changing OAuth version,changing text to full_text etc. but all failed.
+
+I am very sorry to say that i was unable to spend enough time to complete the task.
+
+I think I can finish it by the next day.
+
+Thank you sir..
+
