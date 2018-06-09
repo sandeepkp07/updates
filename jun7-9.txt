@@ -1,0 +1,6 @@
+Sir,
+ Iam trying to learn more about API integration.
+I had created chat rooms.I had tried with different Api to have an interface with chat room,but failed.
+I will try to create the correct one by learning from the links given.
+
+Thank you sir...
